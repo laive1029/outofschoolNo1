@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head%}
+        <meta charset="utf-8">
+        <title>{% block title %} 집에가고싶다 {% endblock %}</title>
+        <style>
+            header{width:120% auto; height:120px; margin:-10px; background-color:#343434; color: white;
+            text-align: center; padding-top: 50px;}
+            header nav a{ color: aliceblue;}
+        </style>
+        {% endblock %}
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="/">메인으로</a>
+            </nav>
+        </header>
+        {% block content%}{% endblock %}
+    </body>
+</html>

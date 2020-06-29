@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block title%}공격{% endblock %}
+{% block head%} {{super()}}{% endblock %}
+
+{% block content%}
+<h3>대학생의 과제빔!</h3>
+<p>대학생은 ☆★☆★킹갓엠페러제너럴대박잘한과제☆★☆★를 이용해 교수님에게 점수를 따기로 했다</p>
+<br><br><br><p>~며칠뒤~</p><br><br><br>
+<p>교수님에게 전화가 왔다...</p>
+<img src= {{ url_for('static', filename="image/hpProfessor.png") }} alt="겨스님 기분조타.">
+<h4>"오호라, 자네구먼!"</h4>
+<h4>"자네의 과제 참 잘 봤다네. 아주 마음에 들어!"</h4>
+<h4>"내 자네에게 하나 제안을 하고 싶은데 말야..."</h4>
+<br><br><br><br><br><h4>"자네.. 대학원에 올 생각 없는가?</h4>
+<br><p>그렇게 대학생은 대학원생이 되어 교수님의 노예가 되었다...</p>
+{% endblock %}

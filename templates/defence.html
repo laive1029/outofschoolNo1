@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block title%}방어{% endblock %}
+{% block head%} {{super()}}{% endblock %}
+
+{% block content%}
+<h3>교수님의 과제폭탄!</h3>
+<p>대학생은 온 힘을 다 해 과제폭탄을 몸으로 버텼으나..</p>
+<p>당연히 실패했다.</p>
+<p>교수님에게 전화가 왔다...</p>
+<img src={{ url_for('static', filename="image/anProfessor.png") }} alt="겨스님 빡춋다.">
+<h4>"거.. 자네구먼..."</h4>
+<h4>"자네는.. 과제는 안 하고 뭘 한 겐가?"</h4>
+<br><br><br><br><br><h4>"자네는 F일세.</h4>
+<br><p>그렇게 대학생은 내년에도 교수님을 또 보게 되었다...</p>
+{% endblock %}

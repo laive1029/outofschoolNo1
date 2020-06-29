@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block title%}자퇴빔~~{% endblock %}
+{% block head%} {{super()}}{% endblock %}
+
+{% block content%}
+<h3>대학생은 학교에서 버티기에는 너무 나약하여 자퇴를 결심했다.</h3>
+<img src={{ url_for('static', filename="image/droppingoutofschool.png") }} alt="대학생 탈출햇다.">
+<p>대학생은 대학교를 놓아주었다.</p>
+<p>바이바이, 대학교!</p>
+{% endblock %}
